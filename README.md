@@ -1,6 +1,9 @@
 # Ghostlight
 
-A private local draft for a spooky-but-usable costume contest task list and focus timer. Ghostlight is a Vue 3 + Vite single-page app. It is intentionally account-free: tasks and timer state are stored in the browser's `localStorage` and never sent anywhere.
+A spooky-but-usable costume contest task list and focus timer. Ghostlight is a Vue 3 + Vite single-page app. It is intentionally account-free: tasks and timer state are stored in the browser's `localStorage` and are not sent to an application server.
+
+**Try the app:** https://creamchen.github.io/ghostlight/  
+**Demo video:** https://youtu.be/ai8YMm9aqaE
 
 ## Run locally
 
@@ -24,7 +27,7 @@ Open the local URL Vite prints. For a production build, run `npm run build` and 
 
 ## Honest limitations
 
-This is a local draft, not a deployed product. Data is limited to the current browser profile; clearing site data removes it. There is no cross-device sync, notification sound, authentication, backend, or offline service worker. The Google Fonts import is a convenience for the visual draft; if unavailable, the app falls back to system fonts.
+Data is limited to the current browser profile; clearing site data removes it. There is no cross-device sync, notification sound, authentication, backend, or offline service worker. The Google Fonts import is a convenience for the visual design; if unavailable, the app falls back to system fonts.
 
 ## Authorship note
 
